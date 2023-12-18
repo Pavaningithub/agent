@@ -21,6 +21,10 @@ Main (unreleased)
 - The `target` block in `prometheus.exporter.blackbox` requires a mandatory `name`
   argument instead of a block label. (@hainenber)
 
+### Features
+
+- A new `discovery.ovhcloud` component for discovering scrape targets on OVHcloud. (@ptodev)
+
 ### Enhancements
 
 - Flow Windows service: Support environment variables. (@jkroepke)
@@ -62,6 +66,11 @@ Main (unreleased)
 - Add support for passing extra arguments to the static converter such as `-config.expand-env`. (@erikbaranowski)
 
 - Added 'country' mmdb-type to log pipeline-stage geoip. (@superstes)
+
+- `discovery.lightsail` now supports additional parameters for configuring HTTP client settings. (@ptodev)
+
+- `prometheus.scrape` has a new `track_timestamps_staleness` configuration switch for tracking
+  staleness of metrics with explicit timestamps. (@ptodev)
 
 ### Bugfixes
 
