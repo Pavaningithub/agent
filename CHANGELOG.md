@@ -92,6 +92,10 @@ Main (unreleased)
 
 - Bump github.com/IBM/sarama from v1.41.2 to v1.42.1
 
+- Update to v2.48.1 of `github.com/prometheus/prometheus`.
+  Previously, a custom fork of v2.47.2 was used. 
+  The custom fork of v2.47.2 also contained prometheus#12729 and prometheus#12677.
+
 v0.38.1 (2023-11-30)
 --------------------
 
