@@ -72,6 +72,8 @@ Main (unreleased)
   - Allows for pulling metrics at the Azure subscription level instead of resource by resource 
   - Disable dimension validation by default to reduce the number of exporter instances needed for full dimension coverage 
 
+- Handle paths in the Kubelet URL for `discovery.kubelet`. (@petewall)
+
 ### Bugfixes
 
 - Update `pyroscope.ebpf` to fix a logical bug causing to profile to many kthreads instead of regular processes https://github.com/grafana/pyroscope/pull/2778 (@korniltsev)
