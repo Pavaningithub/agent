@@ -50,7 +50,7 @@ The following is an example snippet of a `kustomization` that disables this beha
 configMapGenerator:
   - name: grafana-agent
     files:
-      - config.river
+      - config.river=config.river
     options:
       disableNameSuffixHash: true
 ```
